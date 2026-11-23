@@ -1,0 +1,614 @@
+[
+ {
+  "id": "q-001",
+  "domain": "wallets",
+  "rank": "explorer",
+  "type": "mcq",
+  "difficulty": 1,
+  "text": {
+   "en": "What does a wallet’s private key do?",
+   "fr": "À quoi sert la clé privée d’un wallet ?"
+  },
+  "options": {
+   "en": [
+    "Signs transactions to prove you own the funds",
+    "Shows your balance to everyone",
+    "Speeds up the network",
+    "Stores a full copy of the chain"
+   ],
+   "fr": [
+    "Elle signe les transactions pour prouver que les fonds vous appartiennent",
+    "Elle affiche votre solde à tout le monde",
+    "Elle accélère le réseau",
+    "Elle stocke une copie complète de la chaîne"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Whoever controls the private key controls the funds, so it must never be shared.",
+   "fr": "Qui contrôle la clé privée contrôle les fonds : elle ne doit jamais être partagée."
+  },
+  "source": {
+   "label": "Blockchain basics"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-002",
+  "domain": "wallets",
+  "rank": "explorer",
+  "type": "mcq",
+  "difficulty": 1,
+  "text": {
+   "en": "Which item should you never share with anyone?",
+   "fr": "Quel élément ne faut-il jamais partager ?"
+  },
+  "options": {
+   "en": [
+    "Your seed phrase",
+    "Your public address",
+    "Your transaction hash",
+    "Your wallet’s name"
+   ],
+   "fr": [
+    "Votre phrase secrète",
+    "Votre adresse publique",
+    "Le hash de votre transaction",
+    "Le nom de votre wallet"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "The seed phrase can recreate your private keys and empty the wallet.",
+   "fr": "La phrase secrète permet de recréer vos clés privées et de vider le wallet."
+  },
+  "source": {
+   "label": "Wallet safety"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-003",
+  "domain": "fundamentals",
+  "rank": "explorer",
+  "type": "mcq",
+  "difficulty": 1,
+  "text": {
+   "en": "What does each block in a blockchain contain?",
+   "fr": "Que contient chaque bloc d’une blockchain ?"
+  },
+  "options": {
+   "en": [
+    "A batch of transactions linked to the previous block by a hash",
+    "Only one user’s password",
+    "A copy of every app’s source code",
+    "Nothing but timestamps"
+   ],
+   "fr": [
+    "Un lot de transactions relié au bloc précédent par un hash",
+    "Le mot de passe d’un seul utilisateur",
+    "Une copie du code source de chaque application",
+    "Uniquement des horodatages"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "The hash link is what makes past blocks hard to alter.",
+   "fr": "Le lien par hash rend les blocs passés très difficiles à modifier."
+  },
+  "source": {
+   "label": "Blockchain basics"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-004",
+  "domain": "fundamentals",
+  "rank": "explorer",
+  "type": "mcq",
+  "difficulty": 1,
+  "text": {
+   "en": "What is a testnet for?",
+   "fr": "À quoi sert un testnet ?"
+  },
+  "options": {
+   "en": [
+    "Practising with tokens that have no real value",
+    "Mining real coins faster",
+    "Storing private keys safely",
+    "Replacing the mainnet"
+   ],
+   "fr": [
+    "S’exercer avec des jetons sans valeur réelle",
+    "Miner de vraies pièces plus vite",
+    "Stocker des clés privées en sécurité",
+    "Remplacer le mainnet"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Testnets let you deploy and make mistakes at no cost.",
+   "fr": "Un testnet permet de déployer et de se tromper sans coût."
+  },
+  "source": {
+   "label": "Network basics"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-005",
+  "domain": "fundamentals",
+  "rank": "explorer",
+  "type": "mcq",
+  "difficulty": 1,
+  "text": {
+   "en": "Why do transactions carry a fee?",
+   "fr": "Pourquoi une transaction comporte-t-elle des frais ?"
+  },
+  "options": {
+   "en": [
+    "It pays for processing and discourages spam",
+    "It buys the right to see other users’ balances",
+    "It is a tax collected by the wallet app",
+    "It unlocks your seed phrase"
+   ],
+   "fr": [
+    "Ils paient le traitement et découragent le spam",
+    "Ils donnent le droit de voir le solde des autres utilisateurs",
+    "C’est une taxe prélevée par l’application wallet",
+    "Ils déverrouillent votre phrase secrète"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Fees compensate validators and make flooding the network costly.",
+   "fr": "Les frais rémunèrent les validateurs et rendent coûteuse la saturation du réseau."
+  },
+  "source": {
+   "label": "Network basics"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-006",
+  "domain": "fundamentals",
+  "rank": "explorer",
+  "type": "mcq",
+  "difficulty": 1,
+  "text": {
+   "en": "What does consensus let a network do?",
+   "fr": "Que permet le consensus à un réseau ?"
+  },
+  "options": {
+   "en": [
+    "Agree on the order of transactions without a central authority",
+    "Hide all transactions forever",
+    "Let one company approve every payment",
+    "Remove the need for validators"
+   ],
+   "fr": [
+    "S’accorder sur l’ordre des transactions sans autorité centrale",
+    "Cacher toutes les transactions pour toujours",
+    "Laisser une seule entreprise approuver chaque paiement",
+    "Supprimer le besoin de validateurs"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Consensus is how independent nodes settle on one shared history.",
+   "fr": "Le consensus permet à des nœuds indépendants de s’accorder sur un historique commun."
+  },
+  "source": {
+   "label": "Blockchain basics"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-007",
+  "domain": "safrochain",
+  "rank": "cosmonaut",
+  "type": "mcq",
+  "difficulty": 2,
+  "text": {
+   "en": "Which framework is Safrochain built on?",
+   "fr": "Sur quel framework Safrochain est-elle construite ?"
+  },
+  "options": {
+   "en": [
+    "Cosmos SDK",
+    "Hyperledger Fabric",
+    "Bitcoin Core",
+    "Substrate"
+   ],
+   "fr": [
+    "Cosmos SDK",
+    "Hyperledger Fabric",
+    "Bitcoin Core",
+    "Substrate"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Safrochain is a Cosmos SDK Layer 1, so it shares tooling with the wider Cosmos ecosystem.",
+   "fr": "Safrochain est un Layer 1 Cosmos SDK : elle partage ses outils avec tout l’écosystème Cosmos."
+  },
+  "source": {
+   "label": "Safrochain documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-008",
+  "domain": "cosmos",
+  "rank": "cosmonaut",
+  "type": "mcq",
+  "difficulty": 2,
+  "text": {
+   "en": "What does IBC stand for?",
+   "fr": "Que signifie IBC ?"
+  },
+  "options": {
+   "en": [
+    "Inter-Blockchain Communication",
+    "Internet Block Control",
+    "Integrated Bank Channel",
+    "Immutable Block Chain"
+   ],
+   "fr": [
+    "Inter-Blockchain Communication",
+    "Internet Block Control",
+    "Integrated Bank Channel",
+    "Immutable Block Chain"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "IBC lets Cosmos chains exchange messages and tokens.",
+   "fr": "IBC permet aux chaînes Cosmos d’échanger des messages et des jetons."
+  },
+  "source": {
+   "label": "Cosmos documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-009",
+  "domain": "governance",
+  "rank": "cosmonaut",
+  "type": "mcq",
+  "difficulty": 2,
+  "text": {
+   "en": "What does delegating tokens to a validator do?",
+   "fr": "Que fait la délégation de jetons à un validateur ?"
+  },
+  "options": {
+   "en": [
+    "Helps secure the chain and earns rewards, with a slashing risk",
+    "Gives the tokens to the validator for good",
+    "Locks your wallet permanently",
+    "Creates new tokens for you"
+   ],
+   "fr": [
+    "Elle aide à sécuriser la chaîne et rapporte des récompenses, avec un risque de slashing",
+    "Elle donne définitivement les jetons au validateur",
+    "Elle verrouille votre wallet pour toujours",
+    "Elle crée de nouveaux jetons pour vous"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "You keep ownership, but if your validator is slashed, its delegators are affected too.",
+   "fr": "Vous restez propriétaire, mais si votre validateur est sanctionné, ses délégateurs le sont aussi."
+  },
+  "source": {
+   "label": "Cosmos documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-010",
+  "domain": "governance",
+  "rank": "cosmonaut",
+  "type": "mcq",
+  "difficulty": 2,
+  "text": {
+   "en": "What is slashing?",
+   "fr": "Qu’est-ce que le slashing ?"
+  },
+  "options": {
+   "en": [
+    "A penalty for validator misbehaviour or long downtime",
+    "A reward for fast blocks",
+    "A fee for sending tokens",
+    "A way to split a token"
+   ],
+   "fr": [
+    "Une pénalité pour mauvaise conduite ou longue indisponibilité d’un validateur",
+    "Une récompense pour des blocs rapides",
+    "Des frais d’envoi de jetons",
+    "Une manière de diviser un jeton"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Slashing gives validators a strong reason to stay honest and online.",
+   "fr": "Le slashing incite fortement les validateurs à rester honnêtes et disponibles."
+  },
+  "source": {
+   "label": "Cosmos documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-011",
+  "domain": "governance",
+  "rank": "cosmonaut",
+  "type": "mcq",
+  "difficulty": 2,
+  "text": {
+   "en": "Who usually votes on governance proposals on a Cosmos chain?",
+   "fr": "Qui vote généralement les propositions de gouvernance sur une chaîne Cosmos ?"
+  },
+  "options": {
+   "en": [
+    "Staked token holders, or their validator for them",
+    "Only the chain’s founders",
+    "Anyone with an email address",
+    "Exchanges only"
+   ],
+   "fr": [
+    "Les détenteurs de jetons stakés, ou leur validateur à leur place",
+    "Seulement les fondateurs de la chaîne",
+    "Toute personne ayant une adresse e-mail",
+    "Seulement les plateformes d’échange"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "A delegator who does not vote inherits the validator’s vote.",
+   "fr": "Un délégateur qui ne vote pas hérite du vote de son validateur."
+  },
+  "source": {
+   "label": "Cosmos documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-012",
+  "domain": "cosmos",
+  "rank": "cosmonaut",
+  "type": "mcq",
+  "difficulty": 2,
+  "text": {
+   "en": "What does CometBFT provide?",
+   "fr": "Que fournit CometBFT ?"
+  },
+  "options": {
+   "en": [
+    "The consensus and networking engine",
+    "The Rust compiler",
+    "A wallet interface",
+    "The token price"
+   ],
+   "fr": [
+    "Le moteur de consensus et de réseau",
+    "Le compilateur Rust",
+    "Une interface de wallet",
+    "Le prix du jeton"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Cosmos SDK chains build their application logic on top of it.",
+   "fr": "Les chaînes Cosmos SDK construisent leur logique applicative par-dessus."
+  },
+  "source": {
+   "label": "Cosmos documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-013",
+  "domain": "cosmwasm",
+  "rank": "smith",
+  "type": "mcq",
+  "difficulty": 3,
+  "text": {
+   "en": "CosmWasm contracts are compiled to…",
+   "fr": "Les contrats CosmWasm sont compilés en…"
+  },
+  "options": {
+   "en": [
+    "WebAssembly",
+    "JavaScript bundles",
+    "Native Windows executables",
+    "SQL scripts"
+   ],
+   "fr": [
+    "WebAssembly",
+    "Bundles JavaScript",
+    "Exécutables Windows natifs",
+    "Scripts SQL"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Wasm gives a sandboxed, portable format for contract code.",
+   "fr": "Wasm offre un format isolé et portable pour le code des contrats."
+  },
+  "source": {
+   "label": "CosmWasm documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-014",
+  "domain": "cosmwasm",
+  "rank": "smith",
+  "type": "mcq",
+  "difficulty": 3,
+  "text": {
+   "en": "Which language is most commonly used to write CosmWasm contracts?",
+   "fr": "Quel langage est le plus utilisé pour écrire des contrats CosmWasm ?"
+  },
+  "options": {
+   "en": [
+    "Rust",
+    "Python",
+    "PHP",
+    "Swift"
+   ],
+   "fr": [
+    "Rust",
+    "Python",
+    "PHP",
+    "Swift"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Rust compiles to compact Wasm and catches many bugs at build time.",
+   "fr": "Rust compile en Wasm compact et détecte de nombreux bogues à la compilation."
+  },
+  "source": {
+   "label": "CosmWasm documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-015",
+  "domain": "cosmwasm",
+  "rank": "smith",
+  "type": "mcq",
+  "difficulty": 3,
+  "text": {
+   "en": "Which entry point reads state without changing it?",
+   "fr": "Quel point d’entrée lit l’état sans le modifier ?"
+  },
+  "options": {
+   "en": [
+    "query",
+    "instantiate",
+    "execute",
+    "migrate"
+   ],
+   "fr": [
+    "query",
+    "instantiate",
+    "execute",
+    "migrate"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "“execute” changes state; “query” is read-only.",
+   "fr": "« execute » modifie l’état ; « query » est en lecture seule."
+  },
+  "source": {
+   "label": "CosmWasm documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-016",
+  "domain": "cosmwasm",
+  "rank": "smith",
+  "type": "mcq",
+  "difficulty": 3,
+  "text": {
+   "en": "What does “instantiate” do?",
+   "fr": "Que fait « instantiate » ?"
+  },
+  "options": {
+   "en": [
+    "Creates a contract instance from uploaded code and sets its initial state",
+    "Deletes the contract",
+    "Reads a balance",
+    "Votes on a proposal"
+   ],
+   "fr": [
+    "Crée une instance de contrat à partir du code envoyé et fixe son état initial",
+    "Supprime le contrat",
+    "Lit un solde",
+    "Vote une proposition"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "The same uploaded code can be instantiated many times.",
+   "fr": "Un même code envoyé peut être instancié plusieurs fois."
+  },
+  "source": {
+   "label": "CosmWasm documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ },
+ {
+  "id": "q-017",
+  "domain": "cosmwasm",
+  "rank": "smith",
+  "type": "mcq",
+  "difficulty": 3,
+  "text": {
+   "en": "What is cw-multi-test for?",
+   "fr": "À quoi sert cw-multi-test ?"
+  },
+  "options": {
+   "en": [
+    "Testing contracts in a simulated chain, without running a node",
+    "Deploying to mainnet",
+    "Translating documentation",
+    "Generating wallet keys"
+   ],
+   "fr": [
+    "Tester des contrats dans une chaîne simulée, sans lancer de nœud",
+    "Déployer sur le mainnet",
+    "Traduire la documentation",
+    "Générer des clés de wallet"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "en": "Fast local tests catch most logic errors before deployment.",
+   "fr": "Des tests locaux rapides détectent la plupart des erreurs de logique avant le déploiement."
+  },
+  "source": {
+   "label": "CosmWasm documentation"
+  },
+  "status": "published",
+  "origin": "seed",
+  "version": 1
+ }
+]
