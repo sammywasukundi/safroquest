@@ -1,0 +1,24 @@
+{
+  "name": "safroquest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "SafroQuest: a learn-and-contribute game for the Safrochain ecosystem",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,magenta \"npm run dev -w @safroquest/api\" \"npm run dev -w @safroquest/web\"",
+    "build": "npm run build -w @safroquest/web",
+    "start": "npm run start -w @safroquest/api",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p packages/shared && tsc --noEmit -p apps/api && tsc --noEmit -p apps/web"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "concurrently": "^9.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
