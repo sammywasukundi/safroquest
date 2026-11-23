@@ -1,0 +1,27 @@
+[package]
+name = "safroquest-quest-registry"
+version = "0.1.0"
+edition = "2021"
+description = "SafroQuest QuestRegistry: records XP and claimed quests, computes levels. CosmWasm."
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+library = []
+
+[dependencies]
+cosmwasm-schema = "2.1"
+cosmwasm-std = "2.1"
+cw-storage-plus = "2.0"
+
+[profile.release]
+opt-level = "z"
+debug = false
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = "abort"
+overflow-checks = true
